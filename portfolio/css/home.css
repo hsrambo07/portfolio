@@ -1,14 +1,10 @@
 html{
-
-width: 2130px;
+left: 50%;
+top:50%;
+    width: 2130px;
 }
 
-@viewport {
-    width: 980px;
-    min-zoom: 0.25;
-    max-zoom: 5;
-    orientation: landscape;
-}
+
 @mixin media-desktop {
     @media (min-width: $desktop) {
       @content;
