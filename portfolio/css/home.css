@@ -1,7 +1,6 @@
 html{
 left: 50%;
 top:50%;
-    width: 2130px;
 }
 
 
@@ -99,6 +98,49 @@ box-shadow: 2px 7px 80px rgba(104, 104, 104, 0.4);
 border-radius: 36px;
 }
 
+.text {
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
+    position: absolute;
+
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+  .container1 {
+    position: relative;
+    width: 50%;
+    background-color: #008CBA;
+  }
+.text1 {
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+    position: absolute;
+
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+div.overlay {
+    position: absolute;
+
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  div.box:hover  {
+
+    background-color: #008CBA;
+  }
+
+
 p.mywork{
     font-family: Roboto;
 font-style: normal;
@@ -156,6 +198,7 @@ background-color: #2B2B2B;
 
 button.hire{
     position: absolute;
+    display: inline-block;
 background-color: #F3194E;
 color: white;
     width: 308px;
@@ -213,3 +256,37 @@ width: 100%;
 wrapper1{
     position: relative;
 }
+
+
+.centerFlex {
+    /* Internet Explorer 10 */
+    display:-ms-flexbox;
+    -ms-flex-pack:center;
+    -ms-flex-align:center;
+    /* Firefox */
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+    /* Safari, Opera, and Chrome */
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+    /* W3C */
+    display:box;
+    box-pack:center;
+    box-align:center;
+}
+.centerPseudo {
+    display:inline-block;
+    text-align:center;
+}
+.centerPseudo::before {
+    content:'';
+    display:inline-block;
+    height: 100%;
+    vertical-align:middle;
+    width:0px;
+}
+
+
+
