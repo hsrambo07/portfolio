@@ -1,8 +1,6 @@
 html{
-    -moz-transform: scale(1);
-    -moz-transform-origin: 120% 0 0;  /* Mozilla */ 
-    -webkit-transform: scale(0.7);
-    -webkit-transform-origin: 60% 0 0; 
+
+width: 2130px;
 }
 
 @viewport {
