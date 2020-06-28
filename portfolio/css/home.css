@@ -1,14 +1,4 @@
-html{
-left: 50%;
-top:50%;
-}
 
-
-@mixin media-desktop {
-    @media (min-width: $desktop) {
-      @content;
-    }
-  }
 body{
 margin: 0px;
 zoom:62%;
@@ -199,24 +189,22 @@ background-color: #2B2B2B;
 
 button.hire{
     position: absolute;
-    display: inline-block;
 background-color: #F3194E;
 color: white;
     width: 308px;
     height: 120px;
-    margin-right: 20px;
     transition-delay:0.7 ease ;
     font-weight: 600px;
     font-size: 50px;
     font-family: roboto;
-    top: 850px;
-    left: 880px;
+top:855px;
+left: 41.6%;
     border: none;
 }
 
 button.hire:hover{
-top:860px;
-left:900px;
+top:862px;
+left:42.4%;
 }
 
 button.contact{
