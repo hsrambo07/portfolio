@@ -34,7 +34,7 @@ p.name{
 
 img.circle{
 z-index: -5;
-top:270px;
+top:290px;
 left:1230px;
 position: static;
 }
@@ -107,7 +107,7 @@ pic{
 p.bio{
     display: inline;
     margin-top: 1250px;
-    padding-bottom: 115px;
+    padding-bottom: 0px;
         float: right;
         font-family: Roboto;
         font-weight: 900;
@@ -153,12 +153,51 @@ color: white;
     font-weight: 600px;
     font-size: 50px;
     font-family: roboto;
-    top: 750px;
+    top: 850px;
     left: 880px;
     border: none;
 }
 
 button.hire:hover{
+top:860px;
+left:900px;
+}
 
-    transform: scale(0.8);
+button.contact{
+    display: inline;
+    width: 1000px;
+height: 190px;
+text-align: center;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 120px;
+line-height: 187px;
+color: white;
+top: 50%;
+left: 50%;
+border-bottom: 3px solid rgb(34, 34, 34);
+/* identical to box height */
+letter-spacing: -0.035em;
+background: #242424
+}
+
+p.footer{
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 100px;
+    color: rgb(26, 26, 26);
+
+}
+
+div.imgcont{
+width: 100%;
+    background-image: url(footer.svg);
+}
+
+wrapper1{
+    position: relative;
 }
