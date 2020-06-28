@@ -1,5 +1,8 @@
 html{
-    zoom:90%;
+    -moz-transform: scale(1);
+    -moz-transform-origin: 120% 0 0;  /* Mozilla */ 
+    -webkit-transform: scale(1.0);
+    -webkit-transform-origin: 90% 0 0; 
 }
 
 @viewport {
@@ -8,7 +11,11 @@ html{
     max-zoom: 5;
     orientation: landscape;
 }
-
+@mixin media-desktop {
+    @media (min-width: $desktop) {
+      @content;
+    }
+  }
 body{
 margin: 0px;
 }
